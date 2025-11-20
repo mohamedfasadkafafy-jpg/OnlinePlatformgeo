@@ -8,6 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e){
     // ALL USERS IN ONE ARRAY
     const users = [
         {username: "Aya Medhat", password: "Am54", link: "https://mohamedfasadkafafy-jpg.github.io/OnlinePlatformayam/"},
+        {username: "Awad", password: "As32", link: "https://mohamedfasadkafafy-jpg.github.io/OnlinePlatformayam/"}
     ];
 
     // FIND USER
@@ -22,4 +23,5 @@ document.getElementById('loginForm').addEventListener('submit', function(e){
         errorMsg.textContent = "Could not find your account";
     }
 });
+
 
